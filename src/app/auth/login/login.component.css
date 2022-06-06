@@ -1,0 +1,30 @@
+.contaner{
+    background-color: white;
+}
+.card .row {
+    min-height: 600px;
+}
+
+input {
+    margin-top: 24px !important;
+}
+.h4{
+    margin-top: 5%;
+}
+.user {
+    max-width: 330px;
+    padding: 15px;
+  }
+  
+  .user .form-group:focus-within {
+    z-index: 2;
+  }
+/* 
+.login-background{
+    background-color: rgba(0,136,255,0.7);
+    height: auto;
+}
+
+.login-border{
+    border-radius: 100px !important;
+} */

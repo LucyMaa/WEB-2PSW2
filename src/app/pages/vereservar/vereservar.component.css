@@ -1,0 +1,15 @@
+@media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+  }
+  
+.row{
+    justify-content: center;
+    margin-top: 30px;
+  }
+.mamoncito{
+    justify-content: center;
+}
+.img{
+    justify-content: center;
+}
+  

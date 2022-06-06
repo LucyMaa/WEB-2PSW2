@@ -1,0 +1,63 @@
+.card {
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+}
+
+.card-body {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 10%;
+    column-gap: 0.5em;
+}
+
+.card-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    column-gap: 0.5em;
+}
+
+.tempText {
+    justify-self: center;
+}
+
+.tempText p:first-child {
+    font-size: 3em;
+    text-align: center;
+}
+
+.tempText p:last-child {
+    text-align: center;
+    font-size: 3em;
+}
+
+h3 {
+    text-align: center;
+}
+
+@media (max-width: 425px) {
+    .tempText p:first-child {
+        font-size: 3em;
+        text-align: center;
+    }
+    .tempText p:last-child {
+        text-align: center;
+    }
+}
+.modal-dialog {
+    width: 380px;
+    transition: bottom .75s ease-in-out;
+  }
+  .modal-sheet .modal-footer {
+    padding-bottom: 2rem;
+  }
+  
+  .modal-alert .modal-dialog {
+    width: 380px;
+  }
+  
+  .modal-dialog {
+    width: 380px;
+  }
+  

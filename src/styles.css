@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: whitesmoke;
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+    margin: 0 !important;
+    padding: 0 !important;
+    min-height: 100vh !important;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main-container {
+    min-height: 100vh;
+}
